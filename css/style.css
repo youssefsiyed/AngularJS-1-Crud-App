@@ -1,0 +1,11 @@
+.about-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.about-actions {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.about-actions .btn {
+  margin-right: 10px;
+}

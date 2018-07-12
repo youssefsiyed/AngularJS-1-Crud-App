@@ -1,0 +1,19 @@
+<br>
+<a href="#/user" class="btn btn-primary btn-block" role="button">Go Back</a>
+<br>
+<div class="card text-center" ng-init="getOneUser()">
+    <div class="card-body">
+        <h5 class="card-title">{{user.name}}</h5>
+        <p class="card-text">Email: {{user.email}}</p>
+        <p class="card-text">
+            <strong>Company Name:</strong>{{user.company.name}}</p>
+        <p class="card-text">
+            <strong>Company Brand:</strong>{{user.company.catchPhrase}}</p>
+        <p class="card-text">
+            <strong>Zip code:</strong>{{user.address.zipcode}}</p>
+        <a class="card-link">
+            <strong>Street:</strong>{{user.address.street}}</a>
+        <a class="card-link text-right">
+            <strong>City:</strong>{{user.address.city}}</a>
+    </div>
+</div>
